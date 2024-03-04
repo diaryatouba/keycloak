@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.groupeisi</groupId>
 	<artifactId>keycloak</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>keycloak</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -35,6 +35,11 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>7.2</version>
+        </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
